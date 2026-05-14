@@ -1,0 +1,17 @@
+{
+  "response_channel": "SZmax(2),Zmin(1)",
+  "label_band_min_ghz": 6.0,
+  "label_band_max_ghz": 24.0,
+  "primary_difference_mode": "magnitude_abs_diff",
+  "baseline_definition": "five_cell_same_center_supercell",
+  "comparison_definition": "five_cell_nonperiodic_supercell",
+  "frequency_column": "frequency_ghz",
+  "real_column": "real",
+  "imag_column": "imag",
+  "magnitude_column": "magnitude",
+  "primary_label_column": "coupling_label_6_24ghz",
+  "notes": {
+    "zh": "主标签按可用频段 6-24 GHz 计算，比较非周期五单元超胞与同中心参数五单元超胞基准在 SZmax(2),Zmin(1) 通道上的平均幅值绝对差。",
+    "en": "The primary label is computed over the available 6-24 GHz band as the mean absolute magnitude difference between the nonperiodic five-cell supercell and the same-center five-cell supercell baseline on the SZmax(2),Zmin(1) channel."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sample_id": "smoke_same_curve",
+  "periodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\periodic\\model1_szmax2_zmin1_export_test.csv",
+  "nonperiodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\periodic\\model1_szmax2_zmin1_export_test.csv",
+  "response_channel": "SZmax(2),Zmin(1)",
+  "difference_mode": "magnitude_abs_diff",
+  "label_band_min_ghz": 6.0,
+  "label_band_max_ghz": 24.0,
+  "frequency_points": 1001,
+  "frequency_min_ghz": 6.0,
+  "frequency_max_ghz": 24.0,
+  "coupling_label_6_24ghz": 0.0,
+  "max_abs_difference": 0.0,
+  "periodic_mean_magnitude": 0.0015937617540040562,
+  "nonperiodic_mean_magnitude": 0.0015937617540040562
+}

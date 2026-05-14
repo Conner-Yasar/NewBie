@@ -1,0 +1,16 @@
+{
+  "sample_id": "pilot_0070_same_center",
+  "periodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\periodic\\pilot_0070_periodic_szmax2_zmin1.csv",
+  "nonperiodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\nonperiodic\\pilot_0070_same_center_szmax2_zmin1.csv",
+  "response_channel": "SZmax(2),Zmin(1)",
+  "difference_mode": "magnitude_abs_diff",
+  "label_band_min_ghz": 6.0,
+  "label_band_max_ghz": 24.0,
+  "frequency_points": 1001,
+  "frequency_min_ghz": 6.0,
+  "frequency_max_ghz": 24.0,
+  "coupling_label_6_24ghz": 0.8949670486897399,
+  "max_abs_difference": 0.984596447927976,
+  "periodic_mean_magnitude": 0.0015937617540040562,
+  "nonperiodic_mean_magnitude": 0.8965608104437428
+}

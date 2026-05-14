@@ -1,0 +1,40 @@
+{
+  "sampling_stage": "center_matched_grid_v1",
+  "random_seed": 20260514,
+  "sampling_method": "periodic_full_grid_and_center_matched_random_neighbors",
+  "nonperiodic_repeats_per_center": 5,
+  "cells": ["L2", "L1", "C", "R1", "R2"],
+  "variables": {
+    "Atheta": {
+      "start_deg": 0.0,
+      "stop_deg": -45.0,
+      "step_deg": -0.5,
+      "role_zh": "幅度调控几何角",
+      "role_en": "Amplitude-control geometry angle",
+      "description_zh": "中心结构/中心臂旋转角度",
+      "description_en": "Center-structure or center-arm rotation angle"
+    },
+    "Pphi": {
+      "start_deg": 50.0,
+      "stop_deg": 170.0,
+      "step_deg": 1.0,
+      "role_zh": "相位调控几何角",
+      "role_en": "Phase-control geometry angle",
+      "description_zh": "圆环/延伸臂圆心角",
+      "description_en": "Circular extension-arm central angle"
+    }
+  },
+  "periodic_rule": {
+    "zh": "周期数据集为单元级 Atheta/Pphi 全网格基准，每个网格点只对应一个周期单元。",
+    "en": "The periodic dataset is a unit-cell Atheta/Pphi full-grid baseline; each grid point corresponds to one periodic unit cell."
+  },
+  "nonperiodic_rule": {
+    "zh": "每个周期网格点都有 5 条中心匹配的非周期五单元窗口样本。中心单元 C 等于对应周期参数，两侧 L2/L1/R1/R2 从同一离散参数网格随机抽取；五个单元的 (Atheta, Pphi) 参数对不能重复，Atheta 单独不能重复，Pphi 单独也不能重复。每条非周期样本按邻居扰动强度标记 low/medium/high。",
+    "en": "Each periodic grid point has 5 center-matched nonperiodic five-cell window samples. The center cell C equals the corresponding periodic parameters, while L2/L1/R1/R2 are randomly drawn from the same discrete parameter grid. Across the five cells, the (Atheta, Pphi) pairs must be unique, Atheta values must be unique, and Pphi values must also be unique. Each nonperiodic sample is labeled as low/medium/high by neighborhood perturbation strength."
+  },
+  "micro_loop_candidate_count": 3,
+  "micro_loop_selection_rule": {
+    "zh": "从中心匹配非周期样本中自动选择 3 条代表性样本：低扰动且中心靠近中值、中等扰动、高扰动。",
+    "en": "Automatically select 3 representative center-matched nonperiodic samples: low perturbation with a midrange center, medium perturbation, and high perturbation."
+  }
+}

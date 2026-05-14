@@ -1,0 +1,20 @@
+{
+  "sample_id": "grid_05506_np_r04",
+  "baseline_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\nonperiodic\\grid_05506_np_r04_same_center_szmax2_zmin1.csv",
+  "comparison_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\nonperiodic\\grid_05506_np_r04_five_cell_szmax2_zmin1.csv",
+  "periodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\nonperiodic\\grid_05506_np_r04_same_center_szmax2_zmin1.csv",
+  "nonperiodic_csv": "E:\\aris\\meta\\cst_coupling_model1\\data\\raw\\nonperiodic\\grid_05506_np_r04_five_cell_szmax2_zmin1.csv",
+  "response_channel": "SZmax(2),Zmin(1)",
+  "difference_mode": "magnitude_abs_diff",
+  "label_band_min_ghz": 6.0,
+  "label_band_max_ghz": 24.0,
+  "frequency_points": 1001,
+  "frequency_min_ghz": 6.0,
+  "frequency_max_ghz": 24.0,
+  "coupling_label_6_24ghz": 0.18938352792641058,
+  "max_abs_difference": 0.5849298844519564,
+  "baseline_mean_magnitude": 0.551437721286319,
+  "comparison_mean_magnitude": 0.3958945039822468,
+  "periodic_mean_magnitude": 0.551437721286319,
+  "nonperiodic_mean_magnitude": 0.3958945039822468
+}

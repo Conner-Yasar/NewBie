@@ -1,0 +1,15 @@
+# Local CST binary projects and solver artifacts are intentionally excluded.
+cst_projects/
+*.cst
+*.cst~
+*.m3d
+*.sdb
+*.scl
+*.scf
+*.pmm
+*.rex
+*.tet
+Temp/
+Result/
+__pycache__/
+*.pyc

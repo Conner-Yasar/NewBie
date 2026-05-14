@@ -1,0 +1,9 @@
+metric,value
+frequency_points,1001
+frequency_min_ghz,6.0
+frequency_max_ghz,24.0
+periodic_mean_magnitude,0.0015937617540040562
+nonperiodic_mean_magnitude,0.8965608104437428
+mean_abs_difference,0.8949670486897399
+max_abs_difference,0.984596447927976
+max_abs_difference_freq_ghz,15.972
