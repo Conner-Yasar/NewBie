@@ -1,0 +1,28 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "Codex + Playwright CLI browser automation workspace.",
+  "main": "index.js",
+  "scripts": {
+    "browser:version": "playwright --version",
+    "browser:install": "playwright install chromium",
+    "browser:visit": "node automation/visit.js",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conner-Yasar/NewBie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Conner-Yasar/NewBie/issues"
+  },
+  "homepage": "https://github.com/Conner-Yasar/NewBie#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "playwright": "^1.60.0"
+  }
+}

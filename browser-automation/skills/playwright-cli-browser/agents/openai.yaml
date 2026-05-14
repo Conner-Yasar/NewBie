@@ -1,0 +1,3 @@
+display_name: Playwright CLI Browser
+short_description: Automate browser tasks with Playwright CLI and focused scripts.
+default_prompt: Automate this browser workflow with Playwright CLI, save useful artifacts, and verify the result.
